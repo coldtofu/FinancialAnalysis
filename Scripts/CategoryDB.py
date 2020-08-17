@@ -28,7 +28,7 @@ def UpdateWithVendors(vendorSet, categoryDB):
     for vendor in vendorSet:
         if vendor not in categoryDB:
             print("{} not in db".format(vendor))
-            categoryDB[vendor] = ""
+            categoryDB[vendor] = "TBD"
             addedVendors += 1
 
     print("Added {} vendor(s)".format(str(addedVendors)))

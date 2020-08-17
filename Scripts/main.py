@@ -15,7 +15,6 @@ input("Press any key to continue...")
 #db.PrintCategory(categoryDb)
 
 
+db.UpdateWithVendors(txVendors, categoryDb)
 
-
-#db.UpdateWithVendors(txVendors, categoryDb)
 #db.SaveDb("..\Data\categoryDB.csv", categoryDb)
