@@ -45,6 +45,12 @@ def SaveDb(categoryDBPath, categoryDB):
             writer.writerow(rowData)
 
 
+def CreateCategorizedTx(tx, categoryDBPath):
+    pass
+
+
+
+
 #Debugging helpers
 def PrintCategory(categoryDb):
     for vendor, category in categoryDb.items():

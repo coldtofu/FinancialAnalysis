@@ -21,6 +21,17 @@ def GetTxVendors(citiTxFilePath, vendorDBPath):
 
     return vendorDB
 
+def GetTxAsList(citiTxFilePath):
+    transactions = []
+
+    with open(citiTxFilePath, "r") as txFile:
+        txReader = csv.DictReader(txFile)
+
+        for txRow in txReader:
+            transactions.append(txRow)
+
+    return transactions
+
 def PrintTxVendors(db):
     for r in db:
         print(r)
