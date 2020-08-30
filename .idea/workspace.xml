@@ -19,10 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee91eec3-7fbf-46fd-a195-f31afbc55af7" name="Default Changelist" comment="- For new vendors added to categoryDB, their Category in the CSV is now changed to &quot;TBD&quot; so it can be easily found later in spreadsheet for proper cateogrization.">
-      <change afterPath="$PROJECT_DIR$/Scripts/CreateCategorizedTx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/FinancialAnalysis2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FinancialAnalysis2.iml" afterDir="false" />
+    <list default="true" id="ee91eec3-7fbf-46fd-a195-f31afbc55af7" name="Default Changelist" comment="Adding Adding some extra files.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/categoryDB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/categoryDB.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CreateCategorizedTx.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/CreateCategorizedTx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/report.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/report.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597707910407</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding Adding some extra files.">
+      <created>1597872076358</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597872076358</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,29 +148,34 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- Added CharmPy IDE environment related config files.&#10;- Added draft version of cateogrized vendors for testing in categoryDB.csv." />
     <MESSAGE value="- For new vendors added to categoryDB, their Category in the CSV is now changed to &quot;TBD&quot; so it can be easily found later in spreadsheet for proper cateogrization." />
-    <option name="LAST_COMMIT_MESSAGE" value="- For new vendors added to categoryDB, their Category in the CSV is now changed to &quot;TBD&quot; so it can be easily found later in spreadsheet for proper cateogrization." />
+    <MESSAGE value="Adding Adding some extra files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Adding some extra files." />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="2376" height="1175" key="DiffContextDialog" timestamp="1597709907468">
       <screen x="0" y="0" width="2560" height="1359" />
     </state>
     <state x="92" y="92" width="2376" height="1175" key="DiffContextDialog/-1920.0.1920.999/0.0.2560.1359@0.0.2560.1359" timestamp="1597709907468" />
-    <state width="2539" height="426" key="GridCell.Tab.0.bottom" timestamp="1597793706632">
-      <screen x="0" y="0" width="2560" height="1359" />
+    <state width="1899" height="44" key="GridCell.Tab.0.bottom" timestamp="1597877941658">
+      <screen x="0" y="0" width="1920" height="999" />
     </state>
     <state width="2539" height="426" key="GridCell.Tab.0.bottom/-1920.0.1920.999/0.0.2560.1359@0.0.2560.1359" timestamp="1597793706632" />
-    <state width="2539" height="426" key="GridCell.Tab.0.center" timestamp="1597793706632">
-      <screen x="0" y="0" width="2560" height="1359" />
+    <state width="1899" height="44" key="GridCell.Tab.0.bottom/0.0.1920.999@0.0.1920.999" timestamp="1597877941658" />
+    <state width="1899" height="44" key="GridCell.Tab.0.center" timestamp="1597877941657">
+      <screen x="0" y="0" width="1920" height="999" />
     </state>
     <state width="2539" height="426" key="GridCell.Tab.0.center/-1920.0.1920.999/0.0.2560.1359@0.0.2560.1359" timestamp="1597793706632" />
-    <state width="2539" height="426" key="GridCell.Tab.0.left" timestamp="1597793706632">
-      <screen x="0" y="0" width="2560" height="1359" />
+    <state width="1899" height="44" key="GridCell.Tab.0.center/0.0.1920.999@0.0.1920.999" timestamp="1597877941657" />
+    <state width="1899" height="44" key="GridCell.Tab.0.left" timestamp="1597877941657">
+      <screen x="0" y="0" width="1920" height="999" />
     </state>
     <state width="2539" height="426" key="GridCell.Tab.0.left/-1920.0.1920.999/0.0.2560.1359@0.0.2560.1359" timestamp="1597793706632" />
-    <state width="2539" height="426" key="GridCell.Tab.0.right" timestamp="1597793706632">
-      <screen x="0" y="0" width="2560" height="1359" />
+    <state width="1899" height="44" key="GridCell.Tab.0.left/0.0.1920.999@0.0.1920.999" timestamp="1597877941657" />
+    <state width="1899" height="44" key="GridCell.Tab.0.right" timestamp="1597877941657">
+      <screen x="0" y="0" width="1920" height="999" />
     </state>
     <state width="2539" height="426" key="GridCell.Tab.0.right/-1920.0.1920.999/0.0.2560.1359@0.0.2560.1359" timestamp="1597793706632" />
+    <state width="1899" height="44" key="GridCell.Tab.0.right/0.0.1920.999@0.0.1920.999" timestamp="1597877941657" />
     <state width="2539" height="475" key="GridCell.Tab.1.bottom" timestamp="1597793677417">
       <screen x="0" y="0" width="2560" height="1359" />
     </state>
@@ -178,10 +192,18 @@
       <screen x="0" y="0" width="2560" height="1359" />
     </state>
     <state width="2539" height="475" key="GridCell.Tab.1.right/-1920.0.1920.999/0.0.2560.1359@0.0.2560.1359" timestamp="1597793677417" />
+    <state x="735" y="201" key="RollbackChangesDialog" timestamp="1597875849673">
+      <screen x="0" y="0" width="1920" height="999" />
+    </state>
+    <state x="735" y="201" key="RollbackChangesDialog/0.0.1920.999@0.0.1920.999" timestamp="1597875849673" />
     <state x="781" y="324" key="SettingsEditor" timestamp="1597791238292">
       <screen x="0" y="0" width="2560" height="1359" />
     </state>
     <state x="781" y="324" key="SettingsEditor/-1920.0.1920.999/0.0.2560.1359@0.0.2560.1359" timestamp="1597791238292" />
+    <state x="552" y="232" key="Vcs.Push.Dialog.v2" timestamp="1597872079549">
+      <screen x="0" y="0" width="1920" height="999" />
+    </state>
+    <state x="552" y="232" key="Vcs.Push.Dialog.v2/0.0.1920.999@0.0.1920.999" timestamp="1597872079549" />
     <state x="1097" y="593" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597707851138">
       <screen x="0" y="0" width="2560" height="1359" />
     </state>

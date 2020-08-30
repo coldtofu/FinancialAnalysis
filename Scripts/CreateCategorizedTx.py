@@ -6,10 +6,10 @@ import csv
 #into a categorized transaction list to be analyzed via a spreadsheet
 
 #1. Get raw citi transaction
-txList = tx.GetTxAsList("..\Data\Year To Date.csv")
+txList = tx.GetTxAsList("..\Data2019\Year To Date.csv")
 
 #2. Get categorized vendor list
-categorizedVendor = db.FetchCategoryDB("..\Data\categoryDB2.csv")
+categorizedVendor = db.FetchCategoryDB("..\Data2019\categoryDb.csv")
 
 #3. Create a new dictionary, merged with proper category
 mergedList = []
@@ -23,7 +23,7 @@ for tx in txList:
     #print("{} is categorized as {}".format(vendor, financialCategory))
     #input("press any key to continue to merge...")
 
-with open("report.csv", "w", newline='') as csvFile:
+with open("Output Report.csv", "w", newline='') as csvFile:
     writer = csv.DictWriter(csvFile, ["Date", "Description", "Debit", "Credit", "Category", "FCategory"])
     writer.writeheader()
 
